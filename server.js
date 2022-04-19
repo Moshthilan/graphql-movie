@@ -167,4 +167,4 @@ app.use(
     graphiql: true, // Enable GraphiQL when server endpoint is accessed in browser
   })
 );
-app.listen(8080, () => console.log('Now browse to localhost:4000/graphql'));
+app.listen(80, () => console.log('Now browse to localhost:8080/graphql'));
