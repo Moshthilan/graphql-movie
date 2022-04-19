@@ -18,5 +18,8 @@
     "graphql-tools": "^8.2.7",
     "nodemon": "^2.0.15",
     "server": "^1.0.37"
+  },
+  "engines": {
+    "node": "16.14.2"
   }
 }
