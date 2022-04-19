@@ -167,4 +167,7 @@ app.use(
     graphiql: true, // Enable GraphiQL when server endpoint is accessed in browser
   })
 );
-app.listen(80, () => console.log('Now browse to localhost:8080/graphql'));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Our app is running on port ${PORT}`);
+});
