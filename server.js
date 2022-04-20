@@ -20,7 +20,7 @@ var schema = buildSchema(`
   type Query {
     movie(id: Int!): Movies
     movies: [Movies]
-    generefilter(genere: String!): [Movies]
+    genrefilter(genre: String!): [Movies]
   },
   type Movies {
     id: Int
@@ -142,9 +142,9 @@ var allMovies = function () {
 };
 // Return a list of users (takes an optional shark parameter)
 var filteredMovies = function (args) {
-  if (args.genere) {
-    var genere = args.genere;
-    return movies.filter((movie) => movie.genere === genere);
+  if (args.genre) {
+    var genre = args.genre;
+    return movies.filter((movie) => movie.genre === genre);
   } else {
     return movies;
   }
@@ -154,7 +154,7 @@ var filteredMovies = function (args) {
 var root = {
   movie: getMovie, // Resolver function to return user with specific id
   movies: allMovies,
-  generefilter: filteredMovies,
+  genrefilter: filteredMovies,
 };
 // Create an express server and a GraphQL endpoint
 var app = express();
