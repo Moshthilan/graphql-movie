@@ -36,15 +36,15 @@ var schema = buildSchema(`
 var movies = [
   {
     id: 1,
-    title: 'The Shawshank Redemption',
+    title: 'Forrest Gump',
     thumbnail:
-      'https://upload.wikimedia.org/wikipedia/en/8/81/ShawshankRedemptionMoviePoster.jpg',
-    release_date: 'September 10, 1994',
+      'https://upload.wikimedia.org/wikipedia/en/6/67/Forrest_Gump_poster.jpg',
+    release_date: 'June 23, 1994',
     synopsis:
-      'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.',
+      'The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.',
     genre: 'Drama',
     description:
-      "Chronicles the experiences of a formerly successful banker as a prisoner in the gloomy jailhouse of Shawshank after being found guilty of a crime he did not commit. The film portrays the man's unique way of dealing with his new, torturous life; along the way he befriends a number of fellow prisoners, most notably a wise long-term inmate named Red.",
+      "Forrest Gump is a simple man with a low I.Q. but good intentions. He is running through childhood with his best and only friend Jenny. His 'mama' teaches him the ways of life and leaves him to choose his destiny. Forrest joins the army for service in Vietnam, finding new friends called Dan and Bubba, he wins medals, creates a famous shrimp fishing fleet, inspires people to jog, starts a ping-pong craze, creates the smiley, writes bumper stickers and songs, donates to people and meets the president several times. However, this is all irrelevant to Forrest who can only think of his childhood sweetheart Jenny Curran, who has messed up her life. Although in the end all he wants to prove is that anyone can love anyone",
   },
   {
     id: 2,
@@ -72,15 +72,15 @@ var movies = [
   },
   {
     id: 4,
-    title: 'The Matrix',
+    title: 'Fight Club',
     thumbnail:
-      'https://upload.wikimedia.org/wikipedia/en/c/c1/The_Matrix_Poster.jpg',
+      'https://upload.wikimedia.org/wikipedia/en/f/fc/Fight_Club_poster.jpg',
     release_date: 'September 10, 1994',
     synopsis:
-      'When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.',
+      'An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.',
     genre: 'Action',
     description:
-      'Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a hacker known as Neo. Neo has always questioned his reality, but the truth is far beyond his imagination. Neo finds himself targeted by the police when he is contacted by Morpheus, a legendary computer hacker branded a terrorist by the government. As a rebel against the machines, Neo must confront the agents: super-powerful computer programs devoted to stopping Neo and the entire human rebellion.',
+      'A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power.',
   },
   {
     id: 5,
