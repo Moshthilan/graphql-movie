@@ -78,7 +78,7 @@ var movies = [
     release_date: 'September 10, 1999',
     synopsis:
       'An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.',
-    genre: 'Drama',
+    genre: 'Thriller',
     description:
       'A nameless first person narrator (Edward Norton) attends support groups in attempt to subdue his emotional state and relieve his insomniac state. When he meets Marla (Helena Bonham Carter), another fake attendee of support groups, his life seems to become a little more bearable. However when he associates himself with Tyler (Brad Pitt) he is dragged into an underground fight club and soap making scheme. Together the two men spiral out of control and engage in competitive rivalry for love and power.',
   },
