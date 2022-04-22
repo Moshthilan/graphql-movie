@@ -3,19 +3,6 @@ var { graphqlHTTP } = require('express-graphql');
 var { buildSchema } = require('graphql');
 var cors = require('cors');
 
-// Initialize a GraphQL schema
-// var schema = buildSchema(`
-//   type Query {
-//     user(id: Int!): Person
-//     users(shark: String): [Person]
-//   },
-//   type Person {
-//     id: Int
-//     name: String
-//     age: Int
-//     shark: String
-//   }
-// `);
 var schema = buildSchema(`
   type Query {
     movie(id: Int!): Movies
